@@ -12,5 +12,5 @@ variable "ami_key_pair_name" {
 }
 variable "ami_type" {
   type = string
-  default = "t2.micro"
+  default = "t2.medium"
 }
